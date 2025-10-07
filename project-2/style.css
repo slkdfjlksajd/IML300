@@ -1,5 +1,5 @@
 body {
-  background-image: url("assets/sky.gif");
+  background-image: url("assets/lake.jpg");
   background-size: cover;
   height: 100vh;
 }
@@ -13,15 +13,10 @@ img {
   /*      border: 3px solid blue; */
 }
 
-img:hover {
-  height: 400px;
-  filter: grayscale(0%);
-  /*   border: 1px solid red; */
-}
-
-p:hover {
-  /*   transform: rotate(5deg); */
-  letter-spacing: 1em;
+p {
+  color: white;
+  text-align: center;
+  font-size: 25px;
 }
 
 .specialCenter {
@@ -30,23 +25,54 @@ p:hover {
   align-items: center;
 }
 
-h1,
-a {
-  animation: coolAnimation 3s infinite;
+h1{
+  font-family: 'Northingtown', sans-serif;
+  font-size: 75px;
+  color: white;
+  text-align: center;
 }
 
-#p1 {
-  animation: coolAnimation 5s infinite;
+#p1:hover {
+  animation: cycleNumbers 20s infinite;
+  text-shadow: 5px 5px 5px black;
 }
 
-@keyframes coolAnimation {
-  0% {
-    color: red;
-  }
-  50% {
-    color: green;
-  }
-  100% {
-    color: blue;
-  }
+#p2:hover {
+  animation: cycleNumbers 5s infinite;
+  color: lightblue;
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+
+
+}
+
+@keyframes cycleNumbers {
+  0% { content: "0"; }
+  5% { content: "5"; }
+  10% { content: "9"; }
+  15% { content: "12"; }
+  20% { content: "17"; }
+  25% { content: "21"; }
+  30% { content: "25"; }
+  35% { content: "30"; }
+  40% { content: "33"; }
+  45% { content: "39"; }
+  50% { content: "44"; }
+  55% { content: "48"; }
+  60% { content: "52"; }
+  65% { content: "56"; }
+  70% { content: "59"; }
+  75% { content: "61"; }
+  80% { content: "65"; }
+  85% { content: "73"; }
+  90% { content: "80"; }
+  95% { content: "93"; }
+  100% { content: "99"; }
+
+  
+}
+
+.number-display::after {
+  content: ""; /* Initialize content for the pseudo-element */
+  animation: cycleNumbers 4s infinite linear; /* Apply the animation */
 }
