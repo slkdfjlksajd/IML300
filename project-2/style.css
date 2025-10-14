@@ -2,6 +2,7 @@ body {
   background-image: url("assets/lake.jpg");
   background-size: cover;
   height: 100vh;
+  text-align: center;
 }
 
 img {
@@ -16,7 +17,27 @@ img {
 p {
   color: white;
   text-align: center;
+  /* font-family: 'six-hands-marker', sans-serif; */
   font-size: 25px;
+}
+
+a {
+  color: white;
+  font-family: 'six-hands-marker', sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+a:hover {
+  color: lightblue;
+  text-shadow: 5px 5px 5px black;
+  font-size: 35px;
+}
+
+#p2 {
+  font-family: 'six-hands-rough', sans-serif;
+  font-size: 30px;
 }
 
 .specialCenter {
@@ -26,25 +47,24 @@ p {
 }
 
 h1{
-  font-family: 'Northingtown', sans-serif;
+  font-family: 'six-hands-chalk', sans-serif;
   font-size: 75px;
   color: white;
   text-align: center;
 }
 
-#p1:hover {
-  animation: cycleNumbers 20s infinite;
-  text-shadow: 5px 5px 5px black;
-}
+
 
 #p2:hover {
   animation: cycleNumbers 5s infinite;
   color: lightblue;
   text-shadow: 5px 5px 5px black;
-  font-size: 30px;
+  font-size: 35px;
 
 
 }
+
+
 
 @keyframes cycleNumbers {
   0% { content: "0"; }
