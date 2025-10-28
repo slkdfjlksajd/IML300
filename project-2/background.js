@@ -1,6 +1,16 @@
 function preload() {
-  pondBG = loadImage('pond.jpg');
-  pondSketch = loadImage('pondSketch.jpg');
+  pondBG = loadImage('assets/pond.jpg', 
+    // Success callback
+    () => console.log('pondBG loaded successfully'),
+    // Error callback
+    (err) => console.error('Error loading pondBG:', err)
+  );
+  pondSketch = loadImage('assets/pondSketch.jpg',
+    // Success callback
+    () => console.log('pondSketch loaded successfully'),
+    // Error callback
+    (err) => console.error('Error loading pondSketch:', err)
+  );
 }
 
 function setup() {
@@ -10,8 +20,10 @@ function setup() {
 function draw() {
   background(pondBG);
   drawingContext.save();
-  rect(0,0,mouseX, height);
+  rect(windowWidth/2,windowHeight/2,mouseX, height);
   drawingContext.clip();
-  image(pondSketch,0,0,width, height);
+  //imageMode(CENTER);
+  image(pondSketch,windowWidth/2,windowHeight/2,width, height);
   drawingContext.restore();
 }
+
