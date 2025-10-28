@@ -20,9 +20,9 @@ function setup() {
 function draw() {
   background(pondBG);
   drawingContext.save();
-  rect(0,0,mouseX, height);
+  rect(windowWidth/2,windowHeight/2,mouseX, height);
   drawingContext.clip();
-  imageMode(CENTER);
+  //imageMode(CENTER);
   image(pondSketch,windowWidth/2,windowHeight/2,width, height);
   drawingContext.restore();
 }
