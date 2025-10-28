@@ -1,16 +1,6 @@
 function preload() {
-  pondBG = loadImage('assets/pond.jpg', 
-    // Success callback
-    () => console.log('pondBG loaded successfully'),
-    // Error callback
-    (err) => console.error('Error loading pondBG:', err)
-  );
-  pondSketch = loadImage('assets/pondSketch.jpg',
-    // Success callback
-    () => console.log('pondSketch loaded successfully'),
-    // Error callback
-    (err) => console.error('Error loading pondSketch:', err)
-  );
+  pondBG = loadImage('pond.jpg');
+  pondSketch = loadImage('pond copy.jpg');
 }
 
 function setup() {
