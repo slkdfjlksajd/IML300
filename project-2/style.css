@@ -6,10 +6,7 @@ canvas {
 }
 
 body {
-  /* background-image: url("assets/lake.jpg");
-  background-size: cover;
-  height: 100vh;
-  text-align: center; */
+  text-align: center;
 }
 
 img {
@@ -18,7 +15,6 @@ img {
   padding: 10px;
   transition: 1s;
   filter: grayscale(100%);
-  /*      border: 3px solid blue; */
 }
 
 p {
@@ -49,6 +45,8 @@ a:hover {
   color: lightblue;
   text-shadow: 5px 5px 5px black;
   font-size: 35px;
+  margin: 20px;
+  text-align: center;
 }
 
 .specialCenter {
