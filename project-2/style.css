@@ -38,10 +38,11 @@ p {
 
 a {
   color: white;
-  font-family: 'six-hands-marker', sans-serif;
+  font-family: 'six-hands-rough', sans-serif;
   font-size: 30px;
   text-decoration: none;
   margin: 20px;
+  text-align: center;
 }
 
 a:hover {
