@@ -27,7 +27,3 @@ function draw() {
   drawingContext.restore();
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-  
-}
