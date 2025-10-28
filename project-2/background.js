@@ -26,3 +26,8 @@ function draw() {
   image(pondSketch,windowWidth/2,windowHeight/2,width, height);
   drawingContext.restore();
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+  
+}
