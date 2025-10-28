@@ -1,20 +1,12 @@
 function preload() {
-  pondBG = loadImage('assets/pond.jpg', 
-    // Success callback
-    () => console.log('pondBG loaded successfully'),
-    // Error callback
-    (err) => console.error('Error loading pondBG:', err)
-  );
-  pondSketch = loadImage('assets/pondSketch.jpg',
-    // Success callback
-    () => console.log('pondSketch loaded successfully'),
-    // Error callback
-    (err) => console.error('Error loading pondSketch:', err)
-  );
+  pondBG = loadImage('assets/pond.jpg');
+  pondSketch = loadImage('assets/pondSketch.jpg');
+  ambience = loadSound('assets/lakeambienceCut.mp3');
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  ambience.loop();
 }
 
 function draw() {
