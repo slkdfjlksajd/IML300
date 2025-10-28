@@ -22,7 +22,8 @@ function draw() {
   drawingContext.save();
   rect(0,0,mouseX, height);
   drawingContext.clip();
-  //imageMode(CENTER);
-  image(pondSketch,0,0,width, height);
+  imageMode(CENTER);
+  image(pondSketch,windowWidth/2,windowHeight/2,width, height);
   drawingContext.restore();
 }
+
