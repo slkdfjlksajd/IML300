@@ -27,7 +27,8 @@ p {
   font-family: "viktorie", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 25px;
+  font-size: 35px;
+  border-radius: 10px;
 }
 
 #p2 {
@@ -55,7 +56,7 @@ a:hover {
   align-items: center;
 }
 
-h{
+h1{
   font-family: 'six-hands-chalk', sans-serif;
   font-size: 75px;
   color: white;
