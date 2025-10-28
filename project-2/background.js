@@ -6,7 +6,6 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  ambience.loop();
 }
 
 function draw() {
