@@ -1,3 +1,10 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 body {
   /* background-image: url("assets/lake.jpg");
   background-size: cover;
