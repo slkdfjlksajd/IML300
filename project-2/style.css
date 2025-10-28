@@ -1,8 +1,8 @@
 body {
-  background-image: url("assets/lake.jpg");
+  /* background-image: url("assets/lake.jpg");
   background-size: cover;
   height: 100vh;
-  text-align: center;
+  text-align: center; */
 }
 
 img {
@@ -21,6 +21,11 @@ p {
   font-size: 25px;
 }
 
+#p2 {
+  font-family: 'six-hands-rough', sans-serif;
+  font-size: 45px;
+}
+
 a {
   color: white;
   font-family: 'six-hands-marker', sans-serif;
@@ -33,11 +38,6 @@ a:hover {
   color: lightblue;
   text-shadow: 5px 5px 5px black;
   font-size: 35px;
-}
-
-#p2 {
-  font-family: 'six-hands-rough', sans-serif;
-  font-size: 30px;
 }
 
 .specialCenter {
@@ -59,8 +59,7 @@ h1{
   animation: cycleNumbers 5s infinite;
   color: lightblue;
   text-shadow: 5px 5px 5px black;
-  font-size: 35px;
-
+  font-size: 50px;
 
 }
 
