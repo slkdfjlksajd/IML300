@@ -24,7 +24,9 @@ img {
 p {
   color: white;
   text-align: center;
-  /* font-family: 'six-hands-marker', sans-serif; */
+  font-family: "viktorie", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 25px;
 }
 
@@ -53,11 +55,12 @@ a:hover {
   align-items: center;
 }
 
-h1{
+h{
   font-family: 'six-hands-chalk', sans-serif;
   font-size: 75px;
   color: white;
   text-align: center;
+  text-shadow: 5px 5px 5px black;
 }
 
 
