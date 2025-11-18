@@ -9,7 +9,11 @@ canvas {
 body {
   text-align: center;
   background-color: #e4d2bc;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'helvetica-neue', sans-serif;
+  font-weight: 700;
+  /* font-family: 'clarendon-wide-sc', sans-serif;
+font-style: normal;
+font-weight: 700; */
 }
 
 p{
