@@ -1,0 +1,17 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #e4d2bc;
+}
+
+body {
+  text-align: center;
+  background-color: #e4d2bc;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p{
+    color: black
+}
