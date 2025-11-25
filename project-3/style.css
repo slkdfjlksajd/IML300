@@ -16,6 +16,13 @@ font-style: normal;
 font-weight: 700; */
 }
 
+#wave {
+  rotate: -90deg;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
 p{
     color: black
 }
