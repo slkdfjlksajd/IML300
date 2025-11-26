@@ -22,7 +22,13 @@ font-weight: 700; */
     margin-bottom: 10px;
   }
 }
-
+#home {
+  p {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+}
 #wave {
   rotate: -90deg;
   margin: auto;
