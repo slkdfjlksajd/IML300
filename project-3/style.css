@@ -26,3 +26,31 @@ font-weight: 700; */
 p{
     color: black
 }
+
+/* Styles for inline timeline blurbs shown when a timeline entry is clicked */
+.timeline-blurb{
+  background:#f7f7f7;
+  border-left:4px solid #ccc;
+  padding:12px 14px;
+  margin:8px 0 16px 0;
+  color:#222;
+  font-size:15px;
+  line-height:1.4;
+}
+.timeline-blurb em{display:block;color:#666;font-size:13px;margin-top:6px}
+
+/* Make story images and timeline entries show a pointer to indicate clickability */
+#stories img{cursor:pointer}
+#timeline > p{cursor:pointer}
+.timeline-blurb{cursor:default}
+
+.stories-blurb{
+  background:#f7f7f7;
+  border-left:4px solid #ccc;
+  padding:12px 14px;
+  margin:8px 0 16px 0;
+  color:#222;
+  font-size:15px;
+  line-height:1.4;
+}
+.stories-blurb em{display:block;color:#666;font-size:13px;margin-top:6px}
