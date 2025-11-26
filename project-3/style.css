@@ -16,6 +16,13 @@ font-style: normal;
 font-weight: 700; */
 }
 
+#resources {
+  a {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
 #wave {
   rotate: -90deg;
   margin: auto;
