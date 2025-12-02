@@ -8,24 +8,32 @@
   </head>
 
   <body>
-
-<div>
-      <h1>WE THE PEOPLE</h1>
-    </div>
-
+    <div id="link-header">
+        <a href="index.html">HOME</a>
+        <a href="timeline.html">TIMELINE</a>
+        <a href="today.html">TODAY</a>
+        <a href="stories.html">STORIES</a>
+        <a href="resources.html">RESOURCES</a>    
+      </div>
     <div>
-      <a href="index.html">Home</a>
+      <h1>WE THE PEOPLE</h1>
     </div>
 
     <div id="today">
       <h2>TODAY</h2>
-      <a href="https://deportationtracker.live/report-raid">ICE Raid Tracker</a>
-      <a href="https://www.uscis.gov/newsroom/news-releases">USCIS News Releases</a>
-
-      <section id="uscis-news" aria-live="polite" aria-label="USCIS live news">
-        <h3>USCIS Live News</h3>
-        <div class="live-news-list">Loading live updates…</div>
+      
+      <section id="ice-tracker" aria-label="ICE Raid Tracker">
+        <h3>ICE Raid Tracker</h3>
+        <iframe src="https://deportationtracker.live/report-raid" width="100%" height="600" title="ICE Raid Tracker Map" style="border:1px solid #ccc;"></iframe>
       </section>
+
+      <a href="https://deportationtracker.live/report-raid">https://deportationtracker.live/report-raid</a>
+
+      <section id="uscis-news" aria-label="USCIS newsroom">
+        <h3>USCIS Newsroom</h3>
+        <iframe src="https://www.uscis.gov/newsroom" width="100%" height="600" title="USCIS Newsroom" style="border:1px solid #ccc;"></iframe>
+      </section>
+      <a href="https://www.uscis.gov/newsroom/news-releases">https://www.uscis.gov/newsroom/news-releases</a>
     </div>
 
 
