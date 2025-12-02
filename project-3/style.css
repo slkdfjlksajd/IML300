@@ -125,18 +125,37 @@ h2{
   max-width: 600px;
 }
 
+#stories {
+width: calc(100% - 48px);
+max-width: 980px;
+margin: 18px auto;
+padding: 0 12px;
+display: center;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    }
+  h3 {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+}
+
 p{
     color: black;
     font-family: "berthold-block-w1g-condensed", sans-serif;
 }
 
-/* Styles for inline timeline blurbs shown when a timeline entry is clicked */
+/* stories blurb */
 .timeline-blurb{
   background:#007BA7;
-  border-left:4px solid #FFA800;
+  box-shadow:-10px 6px 0 #DC4D01;
   padding:12px 14px;
   margin:8px 0 16px 0;
-  color:#222;
+  color:#FFB343;
+  text-shadow:-2px 2px 0 #DC4D01;
   font-family: "berthold-block-w1g-condensed", sans-serif;
   font-size:20px;
   line-height:1.4;
@@ -166,11 +185,11 @@ p{
   box-shadow:-10px 6px 0 #DC4D01;
   padding:12px 14px;
   margin:8px 0 16px 0;
-  color:#ffffff !important;
+  color:#FFA800;
   font-size:15px;
   line-height:1.4;
 }
-.stories-blurb em{display:block;color:#ffffff !important;font-size:13px;margin-top:6px}
+.stories-blurb .ib-body{color:#FFA800;font-size:13px;margin-top:6px}
 
 /* Inline blurb container inserted below the wheel; pushes content down when open */
 .timeline-blurb-container{width:calc(100% - 48px);max-width:980px;margin:18px auto 0;padding:0 12px}
@@ -181,11 +200,11 @@ p{
   color:#FFB343;
   text-shadow:-2px 2px 0 #DC4D01;
 }
-.timeline-inline-blurb .ib-title{font-weight:800;margin-bottom:6px}
-.timeline-inline-blurb .ib-body{font-size:14px;color:#FFB343;text-shadow:-2px 2px 0 #DC4D01;line-height:1.45}
+.timeline-inline-blurb .ib-title{font-weight:800;margin-bottom:6px;font-size:18px;}
+.timeline-inline-blurb .ib-body{font-size:18px;color:#FFB343;text-shadow:-2px 2px 0 #DC4D01;line-height: 1.6;}
 .timeline-inline-blurb .ib-close{float:right;border:none;background:transparent;font-size:18px;cursor:pointer}
 
-/* USCIS Live News list (loaded dynamically) */
+/* USCIS Live News list embed */
 #uscis-news{width:calc(100% - 48px);max-width:980px;margin:18px auto;padding:12px}
 .live-news-list{display:flex;flex-direction:column;gap:12px}
 .live-news-item{background:#fff;border-left:4px solid #007BA7;padding:12px;border-radius:6px}
@@ -196,9 +215,3 @@ p{
 .timeline-wheel p { font-size: 20px; }
 .timeline-wheel p.center { font-size: 24px; }
 .timeline-wheel p.prev, .timeline-wheel p.next { font-size: 18px; }
-
-/* Inline and stories blurb font sizes */
-.timeline-blurb { font-size: 20px; line-height: 1.5; }
-.timeline-inline-blurb .ib-title { font-size: 18px; }
-.timeline-inline-blurb .ib-body { font-size: 18px; line-height: 1.6; }
-.stories-blurb { font-size: 18px; line-height: 1.5; }
